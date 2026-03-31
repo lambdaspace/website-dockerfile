@@ -4,7 +4,7 @@
 ############################################################
 
 # Set the base image to Debian
-FROM debian:stretch
+FROM debian:stretch-20220622
 
 ################## BEGIN INSTALLATION ######################
 RUN apt-get update && \
